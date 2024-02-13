@@ -28,6 +28,31 @@ body {
 
 @layer utilities {
   .text-balance {
-    text-wrap: balance;
+    overflow-wrap: break-word;
+  }
+}
+
+@layer components {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 100%;
+    @screen md {
+      max-width: 100%;
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+    }
+    @screen lg {
+      max-width: 1024px;
+    }
+    @screen xl {
+      max-width: 1280px;
+    }
+    @screen 2xl {
+      max-width: 1404px;
+    }
+    @screen 4k {
+      max-width: 2160px;
+    }
   }
 }
