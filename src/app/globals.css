@@ -34,16 +34,18 @@ body {
 
 @layer components {
   .container {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    margin: 0 auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     max-width: 100%;
     @screen md {
       max-width: 100%;
-      padding-left: 2.5rem;
-      padding-right: 2.5rem;
     }
     @screen lg {
       max-width: 1024px;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      
     }
     @screen xl {
       max-width: 1280px;
