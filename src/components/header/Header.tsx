@@ -9,7 +9,7 @@ export default function Header() {
     { label: "Contact", href: "/contact" },
   ];
   return (
-    <div className="h-full flex items-center justify-between py-10">
+    <div className="flex justify-items-center z-20 py-10">
       <HeaderDesktop links={links} />
       <HeaderMobile links={links} />
     </div>
