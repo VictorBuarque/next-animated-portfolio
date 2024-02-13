@@ -20,16 +20,16 @@ export default function HeaderDesktop({ links }: NavProps) {
       </div>
       <div className="hidden lg:flex flex-row gap-4 items-center justify-center w-1/3">
         <Link href="#">
-          <Image src="/images/facebook.png" width={30} height={0} alt="facebook" />
+          <Image src="/images/facebook.png" width={30} height={0} alt="Facebook" />
         </Link>
         <Link href="https://github.com/VictorBuarque">
-          <Image src="/images/github.png" width={30} height={0} alt="facebook" />
+          <Image src="/images/github.png" width={30} height={0} alt="Github" className="bg-white rounded-full"/>
         </Link>
         <Link href="#">
-          <Image src="/images/instagram.png" width={30} height={0} alt="facebook" />
+          <Image src="/images/instagram.png" width={30} height={0} alt="Instagram" />
         </Link>
         <Link href="https://www.linkedin.com/in/victorbuarque/">
-          <Image src="/images/linkedin.png" width={30} height={0} alt="facebook" />
+          <Image src="/images/linkedin.png" width={30} height={0} alt="Linked In" className="bg-white rounded-full" />
         </Link>
       </div>
       </div>
